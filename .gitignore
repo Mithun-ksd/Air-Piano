@@ -1,0 +1,40 @@
+# Python development files (if local development files are ever placed here)
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+.venv/
+venv/
+env/
+ENV/
+
+# Build and packaging output
+build/
+dist/
+*.spec
+*.egg-info/
+.eggs/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+secrets.*
+credentials.*
+
+# Logs, temporary files, and local state
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Executables should be attached to GitHub Releases, not committed to Git history
+*.exe
